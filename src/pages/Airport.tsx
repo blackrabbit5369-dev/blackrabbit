@@ -52,13 +52,6 @@ Vehicle: ${formData.vehicleType || 'Any'}`;
         window.open(`https://wa.me/919876543210?text=${encodeURIComponent(message)}`, '_blank');
     };
 
-    const airportRoutes = [
-        { destination: 'SG Highway', distance: '18 km', time: '35 mins', price: '₹700' },
-        { destination: 'Gandhinagar', distance: '22 km', time: '40 mins', price: '₹800' },
-        { destination: 'Vadodara', distance: '115 km', time: '2 hours', price: '₹2200' },
-        { destination: 'Anand', distance: '85 km', time: '1.5 hours', price: '₹1800' },
-    ];
-
     const fleet = [
         { name: 'Swift Dzire', image: '/images/fleet/swift-dzire-white.png', capacity: 4, price: '₹12/km' },
         { name: 'SUV', image: '/images/fleet/suv-white.png', capacity: 6, price: '₹15/km' },
