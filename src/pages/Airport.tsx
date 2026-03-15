@@ -21,7 +21,7 @@ import {
     Radar
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import tempoTravellerImg from '../assets/images/fleet/tempo-traveller.jpg';
+
 
 const Airport = () => {
     const [formData, setFormData] = useState({
@@ -57,7 +57,7 @@ Vehicle: ${formData.vehicleType || 'Any'}`;
         { name: 'Swift Dzire', image: '/images/fleet/swift-dzire-white.png', capacity: 4, price: '₹12/km' },
         { name: 'SUV', image: '/images/fleet/suv-white.png', capacity: 6, price: '₹15/km' },
         { name: 'Innova Crysta', image: '/images/fleet/innova-white.png', capacity: 7, price: '₹19/km' },
-        { name: 'Tempo Traveller', image: tempoTravellerImg, capacity: 12, price: '₹28/km' },
+        { name: 'Tempo Traveller', image: '/images/fleet/tempo-traveller.jpg', capacity: 12, price: '₹28/km' },
     ];
 
     return (

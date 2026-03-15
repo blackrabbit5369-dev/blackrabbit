@@ -34,7 +34,7 @@ const fleetVehicles = [
         luggage: '8 bags',
         bestFor: 'Group travel and large family tours',
         price: '₹28/km',
-        image: '/src/assets/images/fleet/tempo-traveller.jpg',
+        image: '/images/fleet/tempo-traveller.jpg',
     }
 ];
 
@@ -245,7 +245,7 @@ const Fleet = () => {
                                 className="relative rounded-[3rem] overflow-hidden shadow-2xl"
                             >
                                 <img
-                                    src="/src/assets/images/fleet/fleet-hero.jpg"
+                                    src="/images/fleet/fleet-hero.jpg"
                                     alt="Luxury Car Interior"
                                     className="w-full h-full object-cover"
                                 />

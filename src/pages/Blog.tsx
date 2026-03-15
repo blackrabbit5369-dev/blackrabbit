@@ -7,7 +7,7 @@ const posts = [
         excerpt: 'Explore the best weekend getaways from Ahmedabad. Our luxury cabs make the journey as impressive as the destination.',
         date: 'Oct 15, 2026',
         category: 'Travel Tips',
-        image: '/src/assets/images/general/blog-1.jpg'
+        image: '/images/general/blog-1.jpg'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const posts = [
         excerpt: 'Find out why upgrading your travel to a premium sedan or SUV is a safer, more comfortable, and logical choice for corporate travel.',
         date: 'Sep 28, 2026',
         category: 'Insights',
-        image: '/src/assets/images/fleet/swift-dzire.jpg'
+        image: '/images/fleet/swift-dzire.jpg'
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ const posts = [
         excerpt: 'Leave your car behind and take a walking tour. We provide pickup and drop to the core of the walled city.',
         date: 'Sep 10, 2026',
         category: 'Local Guide',
-        image: '/src/assets/images/general/blog-2.jpg'
+        image: '/images/general/blog-2.jpg'
     }
 ];
 

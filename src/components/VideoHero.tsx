@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
 import { useRef } from 'react';
-import heroCar from '../assets/images/hero/luxury-suv-hero.png';
+const heroCar = '/images/hero/luxury-suv-hero.png';
 
 
 const VideoHero = () => {
@@ -23,7 +23,7 @@ const VideoHero = () => {
             {/* Background with Decorative Elements (Parallax) */}
             <motion.div style={{ y: backgroundY }} className="absolute inset-0 pointer-events-none">
                 {/* Soft Map Pattern */}
-                <div className="absolute inset-0 bg-[url('/src/assets/images/general/pattern-cubes.png')] opacity-10" />
+                <div className="absolute inset-0 bg-[url('/images/general/pattern-cubes.png')] opacity-10" />
 
                 {/* Abstract Curved Lines Suggesting Roads */}
                 <svg className="absolute top-0 right-0 w-full h-full opacity-[0.03] text-black-900" viewBox="0 0 100 100" preserveAspectRatio="none">

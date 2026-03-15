@@ -133,7 +133,7 @@ const About = () => {
                         >
                             <div className="relative rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] md:aspect-auto">
                                 <img
-                                    src="/src/assets/images/fleet/swift-dzire.jpg"
+                                    src="/images/fleet/swift-dzire.jpg"
                                     alt="Black Rabbit Premium Taxi"
                                     className="w-full h-full object-cover"
                                 />
@@ -222,15 +222,15 @@ const About = () => {
                             >
                                 <div className="space-y-3 md:space-y-4 pt-6 md:pt-10">
                                     <div className="bg-white p-1.5 md:p-2 rounded-[1.5rem] md:rounded-[2rem] shadow-lg">
-                                        <img src="/src/assets/images/general/driver-1.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
+                                        <img src="/images/general/driver-1.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
                                     </div>
                                     <div className="bg-white p-1.5 md:p-2 rounded-[1.5rem] md:rounded-[2rem] shadow-lg">
-                                        <img src="/src/assets/images/general/driver-2.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
+                                        <img src="/images/general/driver-2.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
                                     </div>
                                 </div>
                                 <div className="space-y-3 md:space-y-4">
                                     <div className="bg-white p-1.5 md:p-2 rounded-[1.5rem] md:rounded-[2rem] shadow-lg">
-                                        <img src="/src/assets/images/general/driver-3.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
+                                        <img src="/images/general/driver-3.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
                                     </div>
                                     <div className="bg-white p-4 md:p-6 rounded-[1.5rem] md:rounded-[2rem] shadow-lg text-center flex flex-col justify-center items-center">
                                         <ShieldCheck className="text-gold-500 w-8 h-8 md:w-12 md:h-12 mb-2 md:mb-4" />

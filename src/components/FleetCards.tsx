@@ -33,7 +33,7 @@ const fleetData = [
         capacity: 12,
         bestFor: 'Group travel and tours',
         price: '₹28/km',
-        image: '/src/assets/images/fleet/tempo-traveller.jpg',
+        image: '/images/fleet/tempo-traveller.jpg',
     }
 ];
 

@@ -11,6 +11,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import { HelmetProvider } from 'react-helmet-async';
+import { Analytics } from '@vercel/analytics/react';
 
 // ScrollToTop component to reset scroll position on route change
 const ScrollToTop = () => {
@@ -59,6 +60,7 @@ function App() {
             </svg>
           </a>
         </div>
+        <Analytics />
       </Router>
     </HelmetProvider>
   );

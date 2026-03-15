@@ -37,7 +37,7 @@ const BookRide = () => {
             name: 'Tempo Traveller',
             capacity: '12 seats',
             description: 'The ultimate option for group travel',
-            image: '/src/assets/images/fleet/tempo-traveller.jpg',
+            image: '/images/fleet/tempo-traveller.jpg',
         }
     ];
 
