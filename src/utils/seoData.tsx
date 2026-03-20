@@ -1,0 +1,22 @@
+export const sharedPopularRoutes = [
+  { from: "Ahmedabad", to: "City", price: "Starting ₹1000", link: "/ahmedabad-taxi-service" },
+  { from: "Ahmedabad", to: "Local", price: "Starting ₹1500", link: "/local-taxi-ahmedabad" },
+  { from: "Ahmedabad", to: "Airport", price: "Starting ₹500", link: "/ahmedabad-airport-taxi" },
+  { from: "Ahmedabad", to: "Udaipur", price: "Starting ₹4500", link: "/ahmedabad-to-udaipur-taxi" },
+  { from: "Ahmedabad", to: "Bhuj", price: "Starting ₹5000", link: "/ahmedabad-to-bhuj-taxi" },
+  { from: "Ahmedabad", to: "Mount Abu", price: "Starting ₹3200", link: "/ahmedabad-to-mount-abu-taxi" },
+  { from: "Ahmedabad", to: "Dwarka", price: "Starting ₹6500", link: "/ahmedabad-to-dwarka-taxi" },
+  { from: "Ahmedabad", to: "Gandhidham", price: "Starting ₹4500", link: "/ahmedabad-to-gandhidham-taxi" },
+  { from: "Ahmedabad", to: "Surat", price: "Starting ₹5500", link: "/ahmedabad-to-surat-taxi" },
+  { from: "Ahmedabad", to: "Rajkot", price: "Starting ₹4000", link: "/ahmedabad-to-rajkot-taxi" },
+  { from: "Ahmedabad", to: "Vadodara", price: "Starting ₹2500", link: "/ahmedabad-to-vadodara-taxi" },
+  { from: "Ahmedabad", to: "Anand", price: "Starting ₹1800", link: "/ahmedabad-to-anand-taxi" },
+  { from: "Ahmedabad", to: "Mehsana", price: "Starting ₹1500", link: "/ahmedabad-to-mehsana-taxi" },
+  { from: "Gandhidham", to: "Bhuj", price: "Starting ₹1200", link: "/gandhidham-to-bhuj-taxi" },
+  { from: "Bhuj", to: "Gandhidham", price: "Starting ₹1200", link: "/bhuj-to-gandhidham-taxi" },
+  { from: "Adipur", to: "Bhuj", price: "Starting ₹1200", link: "/adipur-to-bhuj-taxi" },
+  { from: "Adipur", to: "Gandhidham", price: "Starting ₹300", link: "/adipur-to-gandhidham-taxi" },
+  { from: "Gandhidham", to: "Ahmedabad", price: "Starting ₹4500", link: "/gandhidham-to-ahmedabad-taxi" },
+  { from: "Bhuj", to: "Ahmedabad", price: "Starting ₹5000", link: "/bhuj-to-ahmedabad-taxi" },
+  { from: "Adipur", to: "Ahmedabad", price: "Starting ₹4500", link: "/adipur-to-ahmedabad-taxi" }
+];

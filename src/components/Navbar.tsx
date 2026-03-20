@@ -27,6 +27,7 @@ const Navbar = () => {
         { name: 'Our Fleet', path: '/fleet' },
         { name: 'Airport Transfer', path: '/airport' },
         { name: 'About Us', path: '/about' },
+        { name: 'Blog', path: '/blog' },
         { name: 'Contact', path: '/contact' },
     ];
 

@@ -8,7 +8,7 @@ const BookingForm = () => {
         dropoff: '',
         date: '',
         time: '',
-        serviceType: 'local',
+        serviceType: 'Local Rental',
         vehicleType: '',
     });
 
@@ -22,6 +22,7 @@ const BookingForm = () => {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         const message = `Hello Black Rabbit, I want to book a cab:
+
 Service: ${formData.serviceType}
 Pickup: ${formData.pickup}
 Drop-off: ${formData.dropoff}
@@ -41,29 +42,23 @@ Vehicle: ${formData.vehicleType || 'Any'}`;
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 className="bg-white rounded-[2rem] md:rounded-[2.5rem] shadow-[0_30px_100px_-20px_rgba(0,0,0,0.15)] border border-gray-100 p-6 md:p-12 max-w-[1400px] mx-auto"
             >
-                {/* Service Tabs */}
-                <div className="flex flex-row items-center mb-8 md:mb-12 border-b border-gray-100 pb-6 md:pb-8 gap-2 md:gap-4 overflow-x-auto no-scrollbar">
-                    <button
-                        type="button"
-                        onClick={() => setFormData({ ...formData, serviceType: 'local' })}
-                        className={`whitespace-nowrap flex-1 md:flex-none px-6 md:px-10 py-3 md:py-4 font-bold rounded-xl md:rounded-2xl transition-all duration-300 ${formData.serviceType === 'local' ? 'bg-gradient-to-r from-gold-500 to-gold-400 text-white shadow-lg shadow-gold-500/30' : 'bg-gray-50 text-gray-500 hover:text-gold-500'}`}
-                    >
-                        Local
-                    </button>
-                    <button
-                        type="button"
-                        onClick={() => setFormData({ ...formData, serviceType: 'airport' })}
-                        className={`whitespace-nowrap flex-1 md:flex-none px-6 md:px-10 py-3 md:py-4 font-bold rounded-xl md:rounded-2xl transition-all duration-300 ${formData.serviceType === 'airport' ? 'bg-gradient-to-r from-gold-500 to-gold-400 text-white shadow-lg shadow-gold-500/30' : 'bg-gray-50 text-gray-500 hover:text-gold-500'}`}
-                    >
-                        Airport
-                    </button>
-                    <button
-                        type="button"
-                        onClick={() => setFormData({ ...formData, serviceType: 'outstation' })}
-                        className={`whitespace-nowrap flex-1 md:flex-none px-6 md:px-10 py-3 md:py-4 font-bold rounded-xl md:rounded-2xl transition-all duration-300 ${formData.serviceType === 'outstation' ? 'bg-gradient-to-r from-gold-500 to-gold-400 text-white shadow-lg shadow-gold-500/30' : 'bg-gray-50 text-gray-500 hover:text-gold-500'}`}
-                    >
-                        Outstation
-                    </button>
+                {/* Service Dropdown */}
+                <div className="mb-8 md:mb-12 border-b border-gray-100 pb-6 md:pb-8">
+                    <label className="block text-xs font-black text-gray-400 mb-2 md:mb-3 uppercase tracking-widest ml-1">Select Service Type</label>
+                    <div className="relative max-w-md">
+                        <select
+                            name="serviceType"
+                            value={formData.serviceType}
+                            onChange={handleChange}
+                            className="w-full bg-gray-50 border-2 border-transparent rounded-xl md:rounded-2xl p-4 md:p-5 text-black-900 font-bold text-lg md:text-xl appearance-none cursor-pointer focus:bg-white focus:border-gold-500/50 transition-all shadow-inner"
+                        >
+                            <option value="Local Rental">Local Rental</option>
+                            <option value="Outstation Trip">Outstation Trip</option>
+                            <option value="Airport Transfer">Airport Transfer</option>
+                            <option value="Daily Route">Daily Route</option>
+                        </select>
+                        <ChevronDown size={24} className="text-gold-500 absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none" />
+                    </div>
                 </div>
 
                 <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-12 gap-5 md:gap-6">

@@ -10,6 +10,29 @@ import Outstation from './pages/Outstation';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import AhmedabadTaxi from './pages/AhmedabadTaxi';
+import AhmedabadAirportTaxi from './pages/AhmedabadAirportTaxi';
+import AhmedabadToUdaipurTaxi from './pages/AhmedabadToUdaipurTaxi';
+import AhmedabadToMountAbuTaxi from './pages/AhmedabadToMountAbuTaxi';
+import AhmedabadToDwarkaTaxi from './pages/AhmedabadToDwarkaTaxi';
+import AhmedabadToBhujTaxi from './pages/AhmedabadToBhujTaxi';
+import AhmedabadToGandhidhamTaxi from './pages/AhmedabadToGandhidhamTaxi';
+import GandhidhamToAhmedabadTaxi from './pages/GandhidhamToAhmedabadTaxi';
+import BhujToAhmedabadTaxi from './pages/BhujToAhmedabadTaxi';
+import AdipurToAhmedabadTaxi from './pages/AdipurToAhmedabadTaxi';
+import AhmedabadToSuratTaxi from './pages/AhmedabadToSuratTaxi';
+import AhmedabadToRajkotTaxi from './pages/AhmedabadToRajkotTaxi';
+import AhmedabadToVadodaraTaxi from './pages/AhmedabadToVadodaraTaxi';
+import AhmedabadToAnandTaxi from './pages/AhmedabadToAnandTaxi';
+import AhmedabadToMehsanaTaxi from './pages/AhmedabadToMehsanaTaxi';
+import GandhidhamToBhujTaxi from './pages/GandhidhamToBhujTaxi';
+import BhujToGandhidhamTaxi from './pages/BhujToGandhidhamTaxi';
+import AdipurToBhujTaxi from './pages/AdipurToBhujTaxi';
+import AdipurToGandhidhamTaxi from './pages/AdipurToGandhidhamTaxi';
+import LocalTaxiAhmedabad from './pages/LocalTaxiAhmedabad';
+import AhmedabadToBhujTravelGuide from './pages/blog/AhmedabadToBhujTravelGuide';
+import BestTimeToVisitDwarka from './pages/blog/BestTimeToVisitDwarka';
+import TopPlacesInUdaipur from './pages/blog/TopPlacesInUdaipur';
 import { HelmetProvider } from 'react-helmet-async';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -39,6 +62,31 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/ahmedabad-taxi-service" element={<AhmedabadTaxi />} />
+            <Route path="/ahmedabad-airport-taxi" element={<AhmedabadAirportTaxi />} />
+            <Route path="/ahmedabad-to-udaipur-taxi" element={<AhmedabadToUdaipurTaxi />} />
+            <Route path="/ahmedabad-to-mount-abu-taxi" element={<AhmedabadToMountAbuTaxi />} />
+            <Route path="/ahmedabad-to-dwarka-taxi" element={<AhmedabadToDwarkaTaxi />} />
+            <Route path="/ahmedabad-to-bhuj-taxi" element={<AhmedabadToBhujTaxi />} />
+            <Route path="/ahmedabad-to-gandhidham-taxi" element={<AhmedabadToGandhidhamTaxi />} />
+            <Route path="/gandhidham-to-ahmedabad-taxi" element={<GandhidhamToAhmedabadTaxi />} />
+            <Route path="/bhuj-to-ahmedabad-taxi" element={<BhujToAhmedabadTaxi />} />
+            <Route path="/adipur-to-ahmedabad-taxi" element={<AdipurToAhmedabadTaxi />} />
+            <Route path="/ahmedabad-to-surat-taxi" element={<AhmedabadToSuratTaxi />} />
+            <Route path="/ahmedabad-to-rajkot-taxi" element={<AhmedabadToRajkotTaxi />} />
+            <Route path="/ahmedabad-to-vadodara-taxi" element={<AhmedabadToVadodaraTaxi />} />
+            <Route path="/ahmedabad-to-anand-taxi" element={<AhmedabadToAnandTaxi />} />
+            <Route path="/ahmedabad-to-mehsana-taxi" element={<AhmedabadToMehsanaTaxi />} />
+            <Route path="/gandhidham-to-bhuj-taxi" element={<GandhidhamToBhujTaxi />} />
+            <Route path="/bhuj-to-gandhidham-taxi" element={<BhujToGandhidhamTaxi />} />
+            <Route path="/adipur-to-bhuj-taxi" element={<AdipurToBhujTaxi />} />
+            <Route path="/adipur-to-gandhidham-taxi" element={<AdipurToGandhidhamTaxi />} />
+            <Route path="/local-taxi-ahmedabad" element={<LocalTaxiAhmedabad />} />
+            
+            {/* Blog Routes */}
+            <Route path="/blog/ahmedabad-to-bhuj-travel-guide" element={<AhmedabadToBhujTravelGuide />} />
+            <Route path="/blog/best-time-to-visit-dwarka" element={<BestTimeToVisitDwarka />} />
+            <Route path="/blog/top-places-in-udaipur" element={<TopPlacesInUdaipur />} />
               {/* Catch-all route mapping any unknown service pages to Home or Contact */}
               <Route path="/services" element={<Home />} />
               <Route path="/privacy-policy" element={<Home />} />
