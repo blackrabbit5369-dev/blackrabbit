@@ -6,6 +6,96 @@ import { MapPin, ArrowRight } from 'lucide-react';
 
 const posts = [
     {
+        id: 16,
+        title: 'Ahmedabad to Kutch: The Ultimate Road Trip Guide',
+        excerpt: 'Planning a road trip from Ahmedabad to Kutch? Our guide covers the best routes and driving times.',
+        date: 'April 28, 2026',
+        category: 'Travel Guide',
+        image: '/images/general/blog-2.jpg',
+        link: '/blog/ahmedabad-to-kutch-travel-guide'
+    },
+    {
+        id: 15,
+        title: 'How Much Does a Kutch Trip Cost?',
+        excerpt: 'A comprehensive budget breakdown for your Kutch adventure, from budget to luxury tiers.',
+        date: 'April 26, 2026',
+        category: 'Travel Tips',
+        image: '/images/general/blog-1.jpg',
+        link: '/blog/kutch-tour-cost-breakdown'
+    },
+    {
+        id: 14,
+        title: 'Where to Stay in Bhuj: Best Hotels and Resorts',
+        excerpt: 'Discover a curated guide to the best accommodations in Bhuj for every budget.',
+        date: 'April 24, 2026',
+        category: 'Travel Tips',
+        image: '/images/general/blog-2.jpg',
+        link: '/blog/hotels-in-bhuj'
+    },
+    {
+        id: 13,
+        title: 'The Comprehensive Rann Utsav Guide',
+        excerpt: 'Everything you need to know about the festival of the white desert, packages, and activities.',
+        date: 'April 22, 2026',
+        category: 'Travel Guide',
+        image: '/images/general/blog-1.jpg',
+        link: '/blog/rann-utsav-guide'
+    },
+    {
+        id: 12,
+        title: 'Kutch on a Budget: Pro Saving Tips',
+        excerpt: 'Experience the magic of the salt desert without breaking the bank with these local tips.',
+        date: 'April 20, 2026',
+        category: 'Travel Tips',
+        image: '/images/general/blog-2.jpg',
+        link: '/blog/budget-trip-to-kutch'
+    },
+    {
+        id: 11,
+        title: 'Top Places to Visit in Kutch Beyond the Rann',
+        excerpt: 'Discover Harappan ruins, pristine beaches, and ancient hills in the diverse Kutch district.',
+        date: 'April 18, 2026',
+        category: 'Travel Guide',
+        image: '/images/general/blog-1.jpg',
+        link: '/blog/top-places-in-kutch'
+    },
+    {
+        id: 10,
+        title: 'How to Reach Bhuj: Multi-City Transport Guide',
+        excerpt: 'A complete logistical guide for reaching Bhuj by air, rail, and road from major Indian cities.',
+        date: 'April 16, 2026',
+        category: 'Travel Guide',
+        image: '/images/general/blog-2.jpg',
+        link: '/blog/how-to-reach-bhuj'
+    },
+    {
+        id: 9,
+        title: 'The Perfect 2-Day Bhuj Itinerary',
+        excerpt: 'How to spend 48 hours exploring palace heritage and the magical white salt desert.',
+        date: 'April 14, 2026',
+        category: 'Travel Guide',
+        image: '/images/general/blog-1.jpg',
+        link: '/blog/bhuj-itinerary-2-days'
+    },
+    {
+        id: 8,
+        title: 'The Ultimate Rann of Kutch Travel Guide',
+        excerpt: 'Everything you need to know about permits, sightseeing, and the white desert adventure.',
+        date: 'April 12, 2026',
+        category: 'Travel Guide',
+        image: '/images/general/blog-2.jpg',
+        link: '/blog/rann-of-kutch-travel-guide'
+    },
+    {
+        id: 7,
+        title: 'Best Time to Visit Rann of Kutch',
+        excerpt: 'A season-by-season guide on weather, full moon dates, and when to see the white desert.',
+        date: 'April 10, 2026',
+        category: 'Travel Tips',
+        image: '/images/general/blog-1.jpg',
+        link: '/blog/best-time-to-visit-rann-of-kutch'
+    },
+    {
         id: 4,
         title: 'Ahmedabad to Bhuj Travel Guide',
         excerpt: 'The essential travel guide for your trip to Kutch. Best routes, heritage sites, and tips for Rann Utsav.',
