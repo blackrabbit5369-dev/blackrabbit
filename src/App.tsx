@@ -43,6 +43,8 @@ import RannUtsavGuide from './pages/blog/RannUtsavGuide';
 import HotelsInBhuj from './pages/blog/HotelsInBhuj';
 import KutchTourCostBreakdown from './pages/blog/KutchTourCostBreakdown';
 import AhmedabadToKutchTravelGuide from './pages/blog/AhmedabadToKutchTravelGuide';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Disclaimer from './pages/Disclaimer';
 import { HelmetProvider } from 'react-helmet-async';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -107,6 +109,8 @@ function App() {
             <Route path="/blog/hotels-in-bhuj" element={<HotelsInBhuj />} />
             <Route path="/blog/kutch-tour-cost-breakdown" element={<KutchTourCostBreakdown />} />
             <Route path="/blog/ahmedabad-to-kutch-travel-guide" element={<AhmedabadToKutchTravelGuide />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/disclaimer" element={<Disclaimer />} />
               {/* Catch-all route mapping any unknown service pages to Home or Contact */}
               <Route path="/services" element={<Home />} />
               <Route path="/privacy-policy" element={<Home />} />

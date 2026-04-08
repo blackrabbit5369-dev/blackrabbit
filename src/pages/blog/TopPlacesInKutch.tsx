@@ -44,9 +44,23 @@ const TopPlacesInKutch = () => {
         As the highest point in Kutch (462 meters), <strong>Kalo Dungar</strong> offers a panoramic view of the Great Rann. On a clear day, the horizon where the salt meets the sky is indistinguishable. It is also famous for the 400-year-old Dattatreya Temple where jackals are fed 'Prasad' every evening.
       </p>
 
-      <h2>5. Bhuj City: The Cultural Heart</h2>
+      <h2>Beyond the White Salt: Must-Visit Sites</h2>
       <p>
-        The district headquarters, Bhuj, is a treasure trove of history.
+        While most tourists come for the salt desert, Kutch offers deep history and religious sites. For a logistical overview, read our <a href="/blog/rann-of-kutch-travel-guide" className="text-gold-600 underline font-bold">Rann of Kutch Travel Guide</a>.
+      </p>
+
+      <div className="my-8 rounded-2xl overflow-hidden shadow-lg">
+        <img src="/images/general/blog-2.jpg" alt="Dholavira Kutch" className="w-full h-64 object-cover" />
+        <p className="text-center text-sm text-gray-500 mt-2 italic">The ancient Harappan ruins at Dholavira, a UNESCO World Heritage site.</p>
+      </div>
+
+      <div className="bg-gold-50 p-4 rounded-xl mb-6 border-l-4 border-gold-500">
+        <p className="text-sm font-bold text-black-900 m-0 text-amber-700">STAY ALERT: Dholavira is located on Khadir Bet island. The journey involves a stunning drive through the desert but requires a dedicated day trip from Bhuj.</p>
+      </div>
+
+      <h2>Top Cultural Hubs</h2>
+      <p>
+        If you are visiting for the culture, don't miss the festival of the desert. Check our <a href="/blog/rann-utsav-guide" className="text-gold-600 underline font-bold">Official Rann Utsav Guide</a> for dates and packages.
       </p>
       <ul>
         <li><strong>Aina Mahal and Prag Mahal:</strong> Two contrasting palaces—one an 18th-century mirror palace and the other a 19th-century Italian Gothic palace.</li>

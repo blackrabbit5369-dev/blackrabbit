@@ -20,9 +20,23 @@ const KutchTourCostBreakdown = () => {
         To understand the cost of a Kutch trip, we need to look at four main pillars: Transportation, Accommodation, Permits/Sightseeing, and Food.
       </p>
 
-      <h2>1. Accommodation: The Variables</h2>
+      <h2>Cost Breakdown by Category</h2>
       <p>
-        Accommodation is the most significant factor in your total budget.
+        If you are looking to specifically save money, check our <a href="/blog/budget-trip-to-kutch" className="text-gold-600 underline font-bold">Kutch Budget Trip Guide</a>.
+      </p>
+
+      <div className="my-8 rounded-2xl overflow-hidden shadow-lg">
+        <img src="/images/general/blog-2.jpg" alt="Kutch Craft Market" className="w-full h-64 object-cover" />
+        <p className="text-center text-sm text-gray-500 mt-2 italic">Budgeting for local handicrafts is a key part of any Kutch trip.</p>
+      </div>
+
+      <div className="bg-gold-50 p-4 rounded-xl mb-6 border-l-4 border-gold-500">
+        <p className="text-sm font-bold text-black-900 m-0 text-amber-700">HIDDEN COST ALERT: Don't forget to budget for desert permits (₹100/person) and camera fees at palaces like Aina Mahal (₹50-100/camera).</p>
+      </div>
+
+      <h2>Rann Utsav Pricing</h2>
+      <p>
+        Festival packages vary wildly based on the month. For more details, see the <a href="/blog/rann-utsav-guide" className="text-gold-600 underline font-bold">Comprehensive Rann Utsav Guide</a>.
       </p>
       <ul>
         <li><strong>Premium Luxury (Tent City):</strong> Staying at the official Tent City during Rann Utsav is a premium experience. A 2-night/3-day all-inclusive package can range from <strong>₹30,000 to ₹50,000</strong> per couple depending on the tent category and current demand.</li>

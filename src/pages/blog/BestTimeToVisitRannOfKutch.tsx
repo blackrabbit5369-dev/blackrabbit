@@ -15,24 +15,32 @@ const BestTimeToVisitRannOfKutch = () => {
         The Great Rann of Kutch is one of the most enigmatic landscapes on our planet. A vast expanse of cracked white salt desert that stretches as far as the eye can see, it transforms from a shallow wetland during the monsoon into a blindingly white salt flat in the winter. Choosing the right time to visit is crucial to ensure you experience the magic of the Rann in its full glory. Whether you're looking for the cultural extravaganza of Rann Utsav or the quiet serenity of the off-peak season, this guide will help you plan your perfect trip.
       </p>
 
-      <h2>The Golden Period: Winter (October/November to February/March)</h2>
+      <h2>The Golden Period: Winter (October to March)</h2>
       <p>
         Winter is undoubtedly the <strong>peak tourism season</strong> in the Rann of Kutch. This is when the water from the monsoon season completely evaporates, leaving behind a thick crust of shimmering white salt. The weather becomes pleasant, the skies clear, and the famous Rann Utsav reaches its zenith.
       </p>
 
+      <div className="my-8 rounded-2xl overflow-hidden shadow-lg">
+        <img src="/images/general/blog-2.jpg" alt="Rann of Kutch White Desert" className="w-full h-64 object-cover" />
+        <p className="text-center text-sm text-gray-500 mt-2 italic">The vast white expanse of the Rann under a clear winter sky.</p>
+      </div>
+
       <h3>Weather and Temperature</h3>
       <p>
-        During these months, daytime temperatures are extremely comfortable, usually ranging between 12°C to 25°C. This makes it ideal for exploring the desert, visiting handicraft villages like Hodka and Bhirandiyara, and climbing the Bhujiyo hill. However, be prepared for sharp drops in temperature at night. In the heart of the desert, it can fall as low as 2°C to 5°C, requiring heavy woolens.
+        During these months, daytime temperatures are extremely comfortable, usually ranging between 12°C to 25°C. This makes it ideal for exploring the desert, visiting handicraft villages like Hodka and Bhirandiyara, and climbing the Bhujiyo hill. 
       </p>
+      <div className="bg-gold-50 p-4 rounded-xl mb-6 border-l-4 border-gold-500">
+        <p className="text-sm font-bold text-black-900 m-0">PRO TIP: Night temperatures can drop to 2°C in January. Always pack heavy woolens even if the day feels warm!</p>
+      </div>
 
       <h3>Rann Utsav: The Cultural Feast</h3>
       <p>
-        Generally starting in November and lasting until the end of February (and sometimes extending into March), Rann Utsav is a three-month-long festival that showcases the rich heritage of Kutch. It features hundreds of luxury tents, folk music performances, traditional dances like the Garba and Rasa, and an endless array of local handicrafts including Rogan art, Ajrakh block printing, and intricate embroidery.
+        Generally starting in November and lasting until February, Rann Utsav is a three-month festival. For a more detailed breakdown, check our <a href="/blog/rann-utsav-guide" className="text-gold-600 underline font-bold">Complete Rann Utsav Guide</a>.
       </p>
 
       <h3>The Full Moon Magic</h3>
       <p>
-        The absolute highlight of a winter visit is witnessing the white desert under a <strong>full moon</strong>. On these nights, the salt crystals reflect the moonlight, making the entire desert glow with a ghostly, silvery luminescence. It is a sight that words can rarely do justice. Many travelers time their visits specifically for the 3-4 days around the full moon.
+        The absolute highlight of a winter visit is witnessing the white desert under a <strong>full moon</strong>. Many travelers time their visits specifically for the 3-4 days around the full moon. If you are coming from outside Gujarat, make sure to read our guide on <a href="/blog/how-to-reach-bhuj" className="text-gold-600 underline font-bold">How to Reach Bhuj</a> to plan your arrival smoothly.
       </p>
 
       <h2>The Transition: Summer (April to June)</h2>

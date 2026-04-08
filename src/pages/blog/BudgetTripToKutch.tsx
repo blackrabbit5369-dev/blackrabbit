@@ -25,10 +25,26 @@ const BudgetTripToKutch = () => {
         <li><strong>Use Guesthouses Near Railway Stations:</strong> Bhuj has several 'Dharamshalas' and basic lodges near the station that are perfectly safe and very clean for those looking for rock-bottom prices.</li>
       </ul>
 
-      <h2>2. Transport: The Balancing Act</h2>
+      <h2>Smart Transportation: The Biggest Cost Saver</h2>
       <p>
-        Getting around Kutch is the second major cost. Kutch is geographically massive, and public transport to tourist sites is infrequent.
+        Getting to Kutch and around it can be expensive if not planned. For a detailed view of expected expenses, check our <a href="/blog/kutch-tour-cost-breakdown" className="text-gold-600 underline font-bold">Kutch Tour Cost Breakdown</a>.
       </p>
+
+      <div className="my-8 rounded-2xl overflow-hidden shadow-lg">
+        <img src="/images/general/blog-1.jpg" alt="Local Market Kutch" className="w-full h-64 object-cover" />
+        <p className="text-center text-sm text-gray-500 mt-2 italic">Local markets in Bhuj are great for finding affordable food and handicrafts.</p>
+      </div>
+
+      <div className="bg-gold-50 p-4 rounded-xl mb-6 border-l-4 border-gold-500">
+        <p className="text-sm font-bold text-black-900 m-0">BUDGET TIP: Visit in early March or late October. You get the white desert experience but with significantly lower accommodation prices compared to December/January.</p>
+      </div>
+
+      <h2>Affordable Accommodation Options</h2>
+      <p>
+        Instead of luxury tent cities, look for homestays in villages or hotels in Bhuj city. Browse our list of <a href="/blog/hotels-in-bhuj" className="text-gold-600 underline font-bold">Recommended Hotels in Bhuj</a> for every budget.
+      </p>
+
+      <h3>2. Transport: The Balancing Act</h3>
       <ul>
         <li><strong>Train to Bhuj:</strong> Always take the train from Ahmedabad or Mumbai. A sleeper class or 3AC ticket is significantly cheaper than flying or a long-haul bus.</li>
         <li><strong>Shared Cabs and GSRTC Buses:</strong> State-run buses (GSRTC) run from Bhuj to villages like Dhordo and Kalo Dungar. They are very cheap but have fixed timings that might not always align with sunrise or sunset. Shared 'Chakdas' (local oversized rickshaws) also run between villages, which is a very authentic (though bumpy) budget experience.</li>

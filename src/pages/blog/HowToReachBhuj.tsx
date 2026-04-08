@@ -15,19 +15,6 @@ const HowToReachBhuj = () => {
         Bhuj, the western gateway to India's spectacular Great Rann of Kutch, is a city that sits at the edge of the desert. While it may seem remote on a map, it is remarkably well-connected to the rest of the country. Whether you are traveling for the Rann Utsav or for business in the industrial hubs of Mundra and Kandla, knowing the most efficient way to reach Bhuj can save you hours of travel time. This guide breaks down every possible way to reach Bhuj by air, rail, and road.
       </p>
 
-      <h2>1. Reaching Bhuj by Air</h2>
-      <p>
-        For travelers coming from long distances, flying is the most time-efficient option.
-      </p>
-      <h3>Bhuj Airport (BHJ)</h3>
-      <p>
-        Bhuj has its own domestic airport located approximately 5 km from the city center. It primarily handles flights from <strong>Mumbai</strong>. Air India and other carriers often operate daily or bi-weekly flights. The flight from Mumbai to Bhuj takes about 1.5 hours, making it the fastest way to enter the region.
-      </p>
-      <h3>Alternative Airport: Ahmedabad (AMD)</h3>
-      <p>
-        Since Bhuj airport has limited connectivity, many travelers choose to fly into <strong>Sardar Vallabhbhai Patel International Airport in Ahmedabad</strong>. Ahmedabad is a major hub connected to almost every major city in India and several international destinations. From Ahmedabad, you can take a premium taxi (6-7 hours) or a train (approx. 6-8 hours) to reach Bhuj.
-      </p>
-      <h3>Alternative Airport: Kandla/Gandhidham (IXY)</h3>
       <p>
         Kandla Airport, located near Gandhidham, is about 60 km from Bhuj. It sometimes has additional flight options from Mumbai. If you find a better flight deal to Kandla, it's a very short 1-hour taxi ride to Bhuj.
       </p>

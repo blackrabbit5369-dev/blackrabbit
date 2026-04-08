@@ -20,7 +20,19 @@ const BhujItinerary2Days = () => {
         To follow this itinerary comfortably, we recommend hiring a private taxi. The sites in Bhuj city are close together, but the White Rann and Kalo Dungar are significant distances away. Having a reliable driver from <strong>Black Rabbit Tours</strong> will save you time and ensure you don't miss the sunset.
       </p>
 
-      <h2>Day 1: Royal Heritage and Local Life</h2>
+      <h2>Day 1: Royal Heritage and the White Desert</h2>
+      <p>
+        On your first day, focus on the heritage of Bhuj before heading to the salt desert. For accommodation options, check our guide on <a href="/blog/hotels-in-bhuj" className="text-gold-600 underline font-bold">Best Hotels in Bhuj</a>.
+      </p>
+
+      <div className="my-8 rounded-2xl overflow-hidden shadow-lg">
+        <img src="/images/general/blog-2.jpg" alt="Aina Mahal Bhuj" className="w-full h-64 object-cover" />
+        <p className="text-center text-sm text-gray-500 mt-2 italic">The intricate glass work in the Aina Mahal palace, Bhuj.</p>
+      </div>
+
+      <div className="bg-gold-50 p-4 rounded-xl mb-6 border-l-4 border-gold-500">
+        <p className="text-sm font-bold text-black-900 m-0">LOCAL TIP: Most museums in Bhuj close between 1:00 PM and 3:00 PM for lunch. Plan your visit accordingly!</p>
+      </div>
       
       <h3>09:00 AM – Check-in and Breakfast</h3>
       <p>

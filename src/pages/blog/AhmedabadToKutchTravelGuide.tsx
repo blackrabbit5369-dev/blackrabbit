@@ -15,10 +15,25 @@ const AhmedabadToKutchTravelGuide = () => {
         The journey from Ahmedabad, the bustling urban heart of Gujarat, to the serene and vast landscapes of Kutch is one of the most popular road trips in Western India. As you leave the high-rises of Ahmedabad behind, the scenery gradually shifts from industrial corridors to the vast, open plains of Saurashtra and finally into the unique, salt-rich terrain of Kutch. This 330-350 km journey is not just a way to reach a destination; it's an experience that showcases the geographic and cultural diversity of Gujarat. This guide is your ultimate companion for planning the perfect road trip from Ahmedabad to Kutch.
       </p>
 
-      <h2>1. The Route Particulars: Distance and Duration</h2>
+      <h2>The Route Particulars: Distance and Duration</h2>
       <p>
-        The distance from <strong>Ahmedabad to Bhuj</strong> (the gateway to Kutch) is approximately <strong>330 km</strong>. Depending on traffic and your choice of vehicle, the drive typically takes between <strong>6 to 7 hours</strong>.
+        The distance from <strong>Ahmedabad to Bhuj</strong> is approximately 330 km. For other ways to reach the district, see our <a href="/blog/how-to-reach-bhuj" className="text-gold-600 underline font-bold">Multi-City Transport Guide</a>.
       </p>
+
+      <div className="my-8 rounded-2xl overflow-hidden shadow-lg">
+        <img src="/images/general/blog-1.jpg" alt="Road to Kutch" className="w-full h-64 object-cover" />
+        <p className="text-center text-sm text-gray-500 mt-2 italic">The smooth highways of Gujarat make the drive to Kutch a pleasure.</p>
+      </div>
+
+      <div className="bg-gold-50 p-4 rounded-xl mb-6 border-l-4 border-gold-500">
+        <p className="text-sm font-bold text-black-900 m-0">EXPERT TIP: The NH-947 via Viramgam is the fastest route. Avoid peak hours (8 AM - 10 AM) when leaving Ahmedabad to save at least 45 minutes of travel time.</p>
+      </div>
+
+      <h2>Interesting Pit-Stops Along the Way</h2>
+      <p>
+        Don't just drive past the sights. Kutch has incredible history beyond the main town. Browse the <a href="/blog/top-places-in-kutch" className="text-gold-600 underline font-bold">Top Sightseeing Spots in Kutch</a> for itinerary ideas.
+      </p>
+
       <h3>The Preferred Route: Via Viramgam and Halvad</h3>
       <p>
         The most common and well-maintained route is:

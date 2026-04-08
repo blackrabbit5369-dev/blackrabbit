@@ -104,14 +104,13 @@ const About = () => {
                                 <span className="text-gold-500 font-black uppercase text-xs tracking-widest mb-4 block underline-gold mx-auto lg:mx-0 w-max">Our Journey</span>
                                 <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-black-900 mb-6 md:mb-8">Our Story</h2>
                                 <p className="text-gray-600 text-base md:text-lg leading-relaxed font-bold mb-6">
-                                    Black Rabbit Tours & Travels was created to provide reliable and premium taxi services in Ahmedabad.
-                                    Our goal is to offer safe, comfortable, and affordable transportation for local travel,
-                                    airport transfers, and outstation trips.
+                                    Founded in the heart of Gujarat, Black Rabbit Tours & Travels was born from a simple yet powerful idea: to redefine what it means to travel across the vibrant landscapes of Kutch and Saurashtra. What started as a small fleet of family-operated cars has evolved into a premier name in the hospitality and transportation industry, built on a foundation of trust, punctuality, and an intimate knowledge of the local terrain.
+                                </p>
+                                <p className="text-gray-600 leading-relaxed font-medium mb-6">
+                                    Our journey began with a focus on the Kutch region—a land of hidden gems, salt deserts, and rich tribal heritage. We realized that while many could provide a car, few could provide a true "travel experience." We set out to hire not just drivers, but local ambassadors who understood the soul of Kutch. Today, Black Rabbit is synonymous with premium comfort, providing specialized services for the world-famous Rann Utsav, corporate delegations, and spiritual pilgrimages to the holy city of Dwarka.
                                 </p>
                                 <p className="text-gray-600 leading-relaxed font-medium">
-                                    We focus on professional drivers, clean vehicles, and excellent customer service to
-                                    ensure every journey is smooth and enjoyable. We have grown from a small fleet to
-                                    a trusted name in Gujarat's travel industry.
+                                    As we expanded our roots from Gandhidham to Ahmedabad and beyond, our mission remained unchanged: to bridge the gap between luxury and utility. We take pride in our meticulously maintained fleet—from the agile Swift Dzire to the spacious Innova Crysta—ensuring that whether it's a quick airport transfer or a week-long desert excursion, you travel with absolute peace of mind.
                                 </p>
                             </div>
                             <div className="grid grid-cols-2 gap-6 md:gap-8 max-w-sm mx-auto lg:mx-0">

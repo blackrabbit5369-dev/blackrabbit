@@ -30,12 +30,23 @@ const RannOfKutchTravelGuide = () => {
         <li><strong>By Road:</strong> The road network in Gujarat is world-class. A drive from Ahmedabad to Bhuj (approx. 330 km) is smooth and scenic. From Bhuj, the white desert is about 80 km (approx. 1.5 to 2 hours) away.</li>
       </ul>
 
-      <h2>The Permit Process: Essential Information</h2>
+      <h2>Preparation: When to Go and What to Pack</h2>
       <p>
-        Because of its proximity to the international border with Pakistan, the Great Rann of Kutch is a highly regulated zone. <strong>Permits are mandatory for all visitors entering the white desert.</strong>
+        Before you set out, it's essential to understand the seasonal nature of the Rann. For a month-by-month temperature breakdown, see our <a href="/blog/best-time-to-visit-rann-of-kutch" className="text-gold-600 underline font-bold">Best Time to Visit Kutch</a> guide.
       </p>
+
+      <div className="my-8 rounded-2xl overflow-hidden shadow-lg">
+        <img src="/images/general/blog-1.jpg" alt="Rann of Kutch Jeep Safari" className="w-full h-64 object-cover" />
+        <p className="text-center text-sm text-gray-500 mt-2 italic">A Jeep safari across the expansive salt desert of Kutch.</p>
+      </div>
+
+      <div className="bg-gold-50 p-4 rounded-xl mb-6 border-l-4 border-gold-500">
+        <p className="text-sm font-bold text-black-900 m-0 text-amber-700">ALERT: Permits are required for all tourists. You can apply online or at the Bhirandiyara check post. Keep your Aadhar/Passport handy.</p>
+      </div>
+
+      <h2>Top Attractions in the Great Rann</h2>
       <p>
-        You can obtain these permits at the <strong>Bhirandiyara Check Post</strong>, which is on the way from Bhuj to Dhordo. You will need a valid government-issued ID (Aadhar, Passport, or Driving License) and a physical copy of it. The fees are nominal—around ₹100 per person and extra for vehicles. To save time, you can also book these permits online through the official Gujarat Tourism portal. Always keep several copies of your permit as you may be asked to show them at various BSF (Border Security Force) checkpoints.
+        While the salt desert is the main draw, the region is filled with other heritage and natural sites. Explore our list of <a href="/blog/top-places-in-kutch" className="text-gold-600 underline font-bold">Top Places to Visit in Kutch</a> for more details beyond the white desert.
       </p>
 
       <h2>Top Things to Do in and Around the Rann</h2>

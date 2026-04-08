@@ -33,11 +33,24 @@ const RannUtsavGuide = () => {
         <em>Note:</em> For those on a budget, several private resorts have sprung up around Dhordo and Gorewali village. They offer traditional mud 'Bhungas' which are often more thermally comfortable and culturally immersive than the tents.
       </p>
 
-      <h2>Activities at Rann Utsav: More Than Just Sightseeing</h2>
+      <h2>Planning Your Rann Utsav Experience</h2>
       <p>
-        The festival organizers ensure there is never a dull moment.
+        Before you book your tent, make sure you are traveling at the right time. Catch the full moon magic by checking our <a href="/blog/best-time-to-visit-rann-of-kutch" className="text-gold-600 underline font-bold">Best Time to Visit Kutch</a> guide.
       </p>
-      <h3>Adventure and Thrills</h3>
+
+      <div className="my-8 rounded-2xl overflow-hidden shadow-lg">
+        <img src="/images/general/blog-2.jpg" alt="Rann Utsav Tent City" className="w-full h-64 object-cover" />
+        <p className="text-center text-sm text-gray-500 mt-2 italic">The sprawling Tent City at Dhordo, the primary hub of Rann Utsav activities.</p>
+      </div>
+
+      <div className="bg-gold-50 p-4 rounded-xl mb-6 border-l-4 border-gold-500">
+        <p className="text-sm font-bold text-black-900 m-0">BOOKING TIP: While you can book via the official Gujarat Tourism portal, local travel agents (like Black Rabbit!) can often bundle premium taxi transfers and better-located tents at competitive rates.</p>
+      </div>
+
+      <h2>Top Activities at Rann Utsav</h2>
+      <p>
+        The festival is more than just a stay. It's an exploration of culture and geography. For a broader view of the region, read our <a href="/blog/rann-of-kutch-travel-guide" className="text-gold-600 underline font-bold">Rann of Kutch Travel Guide</a>.
+      </p>
       <ul>
         <li><strong>Paramotoring:</strong> Get a bird's-eye view of the vast white expanse. It's one of the few places in India where you can paramotor over such a unique terrain.</li>
         <li><strong>ATV Rides:</strong> Zip across the designated desert tracks for an adrenaline fix.</li>
