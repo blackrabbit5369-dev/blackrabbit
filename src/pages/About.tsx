@@ -369,11 +369,11 @@ const About = () => {
                                 <Link to="/book" className="px-8 md:px-10 py-4 md:py-5 bg-gold-500 text-white rounded-xl md:rounded-2xl font-black text-lg md:text-xl shadow-xl shadow-gold-500/30 hover:bg-gold-600 hover:scale-105 transition-all w-full sm:w-auto">
                                     Book Ride
                                 </Link>
-                                <a href="tel:+919876543210" className="px-8 md:px-10 py-4 md:py-5 bg-white text-gold-500 border-2 border-gold-500 rounded-xl md:rounded-2xl font-black text-lg md:text-xl hover:bg-gold-50 hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3">
+                                <a href="tel:+917284038244" className="px-8 md:px-10 py-4 md:py-5 bg-white text-gold-500 border-2 border-gold-500 rounded-xl md:rounded-2xl font-black text-lg md:text-xl hover:bg-gold-50 hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3">
                                     <Phone size={22} className="shrink-0" /> Call Now
                                 </a>
                                 <a
-                                    href="https://wa.me/919876543210"
+                                    href="https://wa.me/917284038244"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="px-8 md:px-10 py-4 md:py-5 bg-[#25D366] text-white rounded-xl md:rounded-2xl font-black text-lg md:text-xl shadow-xl shadow-green-500/30 hover:bg-[#128C7E] hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3"
