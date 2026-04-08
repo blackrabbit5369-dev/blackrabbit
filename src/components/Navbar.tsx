@@ -23,11 +23,9 @@ const Navbar = () => {
 
     const navLinks = [
         { name: 'Home', path: '/' },
-        { name: 'Book Ride', path: '/book' },
-        { name: 'Our Fleet', path: '/fleet' },
-        { name: 'Airport Transfer', path: '/airport' },
-        { name: 'About Us', path: '/about' },
+        { name: 'Packages', path: '/packages' },
         { name: 'Blog', path: '/blog' },
+        { name: 'About', path: '/about' },
         { name: 'Contact', path: '/contact' },
     ];
 

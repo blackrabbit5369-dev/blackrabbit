@@ -104,14 +104,13 @@ const About = () => {
                                 <span className="text-gold-500 font-black uppercase text-xs tracking-widest mb-4 block underline-gold mx-auto lg:mx-0 w-max">Our Journey</span>
                                 <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-black-900 mb-6 md:mb-8">Our Story</h2>
                                 <p className="text-gray-600 text-base md:text-lg leading-relaxed font-bold mb-6">
-                                    Black Rabbit Tours & Travels was created to provide reliable and premium taxi services in Ahmedabad.
-                                    Our goal is to offer safe, comfortable, and affordable transportation for local travel,
-                                    airport transfers, and outstation trips.
+                                    Founded with a vision to redefine travel in Gujarat, Black Rabbit Tours & Travels began its journey in the heart of Gandhidham. What started as a small family-owned fleet has grown into Ahmedabad's most trusted premium taxi service, driven by a simple philosophy: "Travel should be as memorable as the destination."
+                                </p>
+                                <p className="text-gray-600 leading-relaxed font-medium mb-6">
+                                    Our story is rooted in the vibrant culture of Kutch. We realized that while Gujarat was becoming a global tourist hub, there was a gap for a service that combined local expertise with international standards of safety and comfort. Whether it's the mystical White Rann or the busy streets of Ahmedabad, we wanted to ensure every traveler felt like a guest, not just a passenger.
                                 </p>
                                 <p className="text-gray-600 leading-relaxed font-medium">
-                                    We focus on professional drivers, clean vehicles, and excellent customer service to
-                                    ensure every journey is smooth and enjoyable. We have grown from a small fleet to
-                                    a trusted name in Gujarat's travel industry.
+                                    Today, we take pride in our fleet of over 20+ premium vehicles and a team of chauffeurs who are not just drivers, but local guides. From airport transfers to multi-day Kutch expeditions, Black Rabbit is committed to punctuality, transparency, and the spirit of "Atithi Devo Bhava."
                                 </p>
                             </div>
                             <div className="grid grid-cols-2 gap-6 md:gap-8 max-w-sm mx-auto lg:mx-0">

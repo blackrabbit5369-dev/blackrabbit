@@ -6,58 +6,94 @@ import { MapPin, ArrowRight } from 'lucide-react';
 
 const posts = [
     {
-        id: 4,
-        title: 'Ahmedabad to Bhuj Travel Guide',
-        excerpt: 'The essential travel guide for your trip to Kutch. Best routes, heritage sites, and tips for Rann Utsav.',
-        date: 'March 15, 2026',
-        category: 'Travel Guide',
-        image: '/images/general/blog-1.jpg',
-        link: '/blog/ahmedabad-to-bhuj-travel-guide'
-    },
-    {
-        id: 5,
-        title: 'Best Time to Visit Dwarka',
-        excerpt: 'Plan your spiritual pilgrimage to Dwarka with our detailed guide on weather and temple festivals.',
-        date: 'March 10, 2026',
-        category: 'Spiritual',
-        image: '/images/general/blog-2.jpg',
-        link: '/blog/best-time-to-visit-dwarka'
-    },
-    {
-        id: 6,
-        title: 'Top 5 Places to Visit in Udaipur',
-        excerpt: 'Explore the City of Lakes like a local. Must-visit palaces, lakes, and cultural spots in Udaipur.',
-        date: 'March 05, 2026',
-        category: 'Travel Tips',
-        image: '/images/general/blog-1.jpg',
-        link: '/blog/top-places-in-udaipur'
-    },
-    {
         id: 1,
-        title: 'Top 5 Tourist Destinations Near Ahmedabad',
-        excerpt: 'Explore the best weekend getaways from Ahmedabad. Our luxury cabs make the journey as impressive as the destination.',
-        date: 'Oct 15, 2026',
-        category: 'Travel Tips',
-        image: '/images/general/blog-1.jpg',
-        link: '#'
+        title: 'Best time to visit Rann of Kutch',
+        excerpt: 'Discover the best time to visit the Rann of Kutch. From the Rann Utsav to the monsoons, find out when the white desert is at its most beautiful.',
+        date: 'April 08, 2026',
+        category: 'Seasonal Guide',
+        image: 'https://images.unsplash.com/photo-1590483734724-38ff174407c6?auto=format&fit=crop&q=80',
+        link: '/blog/best-time-to-visit-rann-of-kutch'
     },
     {
         id: 2,
-        title: 'Why Choose Premium Cabs Over Regular Taxis?',
-        excerpt: 'Find out why upgrading your travel to a premium sedan or SUV is a safer, more comfortable, and logical choice for corporate travel.',
-        date: 'Sep 28, 2026',
-        category: 'Insights',
-        image: '/images/fleet/swift-dzire.jpg',
-        link: '#'
+        title: 'Rann of Kutch Travel Guide',
+        excerpt: 'The essential travel guide for your trip to Kutch. Best routes, heritage sites, and tips for Rann Utsav.',
+        date: 'April 08, 2026',
+        category: 'Travel Guide',
+        image: 'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&q=80',
+        link: '/blog/rann-of-kutch-travel-guide'
     },
     {
         id: 3,
-        title: 'A Guide to Heritage Walks in the Old City',
-        excerpt: 'Leave your car behind and take a walking tour. We provide pickup and drop to the core of the walled city.',
-        date: 'Sep 10, 2026',
-        category: 'Local Guide',
-        image: '/images/general/blog-2.jpg',
-        link: '#'
+        title: 'Bhuj Itinerary 2 Days',
+        excerpt: 'Discover the best of Bhuj in just 2 days. Explore palaces, temples, and the vibrant local markets with our curated 48-hour itinerary.',
+        date: 'April 08, 2026',
+        category: 'Itinerary',
+        image: 'https://images.unsplash.com/photo-1548013146-72479768bbaa?auto=format&fit=crop&q=80',
+        link: '/blog/bhuj-itinerary-2-days'
+    },
+    {
+        id: 4,
+        title: 'How to Reach Bhuj',
+        excerpt: 'Planning a trip to Kutch? Learn the best ways to reach Bhuj by air, rail, and road. Comprehensive guide for travelers.',
+        date: 'April 08, 2026',
+        category: 'Travel Tips',
+        image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80',
+        link: '/blog/how-to-reach-bhuj'
+    },
+    {
+        id: 5,
+        title: 'Top Places in Kutch',
+        excerpt: 'Explore the best tourist attractions in Kutch. From the White Rann to historical palaces and wildlife sanctuaries.',
+        date: 'April 08, 2026',
+        category: 'Must Visit',
+        image: 'https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&q=80',
+        link: '/blog/top-places-in-kutch'
+    },
+    {
+        id: 6,
+        title: 'Budget Trip to Kutch',
+        excerpt: 'Expert tips for a budget trip to Kutch. Learn how to save on accommodation, travel, and food while experiencing the best of the Rann.',
+        date: 'April 08, 2026',
+        category: 'Budget Travel',
+        image: 'https://images.unsplash.com/photo-1548013146-72479768bbaa?auto=format&fit=crop&q=80',
+        link: '/blog/budget-trip-to-kutch'
+    },
+    {
+        id: 7,
+        title: 'Rann Utsav Guide',
+        excerpt: 'Your complete guide to the Rann Utsav. Learn about festival dates, tent bookings, and cultural activities.',
+        date: 'April 08, 2026',
+        category: 'Festival Guide',
+        image: 'https://images.unsplash.com/photo-1590483734724-38ff174407c6?auto=format&fit=crop&q=80',
+        link: '/blog/rann-utsav-guide'
+    },
+    {
+        id: 8,
+        title: 'Hotels in Bhuj',
+        excerpt: 'Looking for a place to stay in Bhuj? Discover the best hotels, heritage guesthouses, and budget stays in the gateway to Kutch.',
+        date: 'April 08, 2026',
+        category: 'Accommodation',
+        image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80',
+        link: '/blog/hotels-in-bhuj'
+    },
+    {
+        id: 9,
+        title: 'Kutch Tour Cost Breakdown',
+        excerpt: 'Wondering how much a trip to Kutch costs? Our detailed breakdown covers accommodation, transport, and food for every budget.',
+        date: 'April 08, 2026',
+        category: 'Planning',
+        image: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80',
+        link: '/blog/kutch-tour-cost-breakdown'
+    },
+    {
+        id: 10,
+        title: 'Ahmedabad to Kutch Travel Guide',
+        excerpt: 'Planning a road trip from Ahmedabad to Kutch? Our guide covers the best routes, stopovers, and travel tips for a perfect journey.',
+        date: 'April 08, 2026',
+        category: 'Road Trip',
+        image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80',
+        link: '/blog/ahmedabad-to-kutch-travel-guide'
     }
 ];
 

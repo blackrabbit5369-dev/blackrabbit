@@ -36,9 +36,9 @@ const Footer = () => {
                             Quick Links
                         </h4>
                         <ul className="space-y-4 text-sm font-medium">
-                            {['Home', 'About Us', 'Our Fleet', 'Blog', 'Contact'].map((item) => (
+                            {['Home', 'Packages', 'Blog', 'About', 'Contact'].map((item) => (
                                 <li key={item}>
-                                    <Link to={`/${item.toLowerCase().replace(' ', '-')}`} className="text-gray-600 hover:text-gold-500 transition-colors flex items-center gap-2 group">
+                                    <Link to={item === 'Home' ? '/' : `/${item.toLowerCase().replace(' ', '-')}`} className="text-gray-600 hover:text-gold-500 transition-colors flex items-center gap-2 group">
                                         <span className="w-1 h-1 rounded-full bg-gray-300 group-hover:bg-gold-500 transition-colors"></span> {item}
                                     </Link>
                                 </li>
@@ -106,7 +106,8 @@ const Footer = () => {
                     </p>
                     <div className="flex gap-6 text-sm text-gray-500 font-medium">
                         <Link to="/privacy-policy" className="hover:text-gold-500 transition-colors">Privacy Policy</Link>
-                        <Link to="/terms-conditions" className="hover:text-gold-500 transition-colors">Terms & Conditions</Link>
+                        <Link to="/disclaimer" className="hover:text-gold-500 transition-colors">Disclaimer</Link>
+                        <Link to="/about" className="hover:text-gold-500 transition-colors">About Us</Link>
                     </div>
                 </div>
             </div>
