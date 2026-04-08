@@ -75,7 +75,7 @@ const CallToAction = () => {
 
                     {/* Button 2: Call Now (White outline) */}
                     <a
-                        href="tel:+917284038244"
+                        href="tel:+919999999999"
                         className="w-full sm:w-auto px-8 py-4 bg-white text-gold-600 font-bold rounded-2xl shadow-sm border-2 border-gold-200 hover:border-gold-500 hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 text-lg"
                     >
                         <PhoneCall size={20} />
@@ -84,7 +84,7 @@ const CallToAction = () => {
 
                     {/* Button 3: WhatsApp Booking (Green accent) */}
                     <a
-                        href="https://wa.me/917284038244"
+                        href="https://wa.me/919999999999"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full sm:w-auto px-8 py-4 bg-[#25D366] text-white font-bold rounded-2xl shadow-lg shadow-[#25D366]/30 hover:shadow-xl hover:shadow-[#25D366]/40 transform hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 text-lg"

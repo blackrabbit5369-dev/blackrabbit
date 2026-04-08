@@ -16,16 +16,18 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    // Close menu on route change
     useEffect(() => {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
-        if (isOpen) setIsOpen(false);
-    }, [location.pathname, isOpen]);
+        setIsOpen(false);
+    }, [location.pathname]);
 
     const navLinks = [
         { name: 'Home', path: '/' },
-        { name: 'Packages', path: '/packages' },
+        { name: 'Book Ride', path: '/book' },
+        { name: 'Our Fleet', path: '/fleet' },
+        { name: 'Airport Transfer', path: '/airport' },
+        { name: 'About Us', path: '/about' },
         { name: 'Blog', path: '/blog' },
-        { name: 'About', path: '/about' },
         { name: 'Contact', path: '/contact' },
     ];
 

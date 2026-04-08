@@ -104,13 +104,14 @@ const About = () => {
                                 <span className="text-gold-500 font-black uppercase text-xs tracking-widest mb-4 block underline-gold mx-auto lg:mx-0 w-max">Our Journey</span>
                                 <h2 className="text-3xl md:text-4xl font-heading font-extrabold text-black-900 mb-6 md:mb-8">Our Story</h2>
                                 <p className="text-gray-600 text-base md:text-lg leading-relaxed font-bold mb-6">
-                                    Founded with a vision to redefine travel in Gujarat, Black Rabbit Tours & Travels began its journey in the heart of Gandhidham. What started as a small family-owned fleet has grown into Ahmedabad's most trusted premium taxi service, driven by a simple philosophy: "Travel should be as memorable as the destination."
-                                </p>
-                                <p className="text-gray-600 leading-relaxed font-medium mb-6">
-                                    Our story is rooted in the vibrant culture of Kutch. We realized that while Gujarat was becoming a global tourist hub, there was a gap for a service that combined local expertise with international standards of safety and comfort. Whether it's the mystical White Rann or the busy streets of Ahmedabad, we wanted to ensure every traveler felt like a guest, not just a passenger.
+                                    Black Rabbit Tours & Travels was created to provide reliable and premium taxi services in Ahmedabad.
+                                    Our goal is to offer safe, comfortable, and affordable transportation for local travel,
+                                    airport transfers, and outstation trips.
                                 </p>
                                 <p className="text-gray-600 leading-relaxed font-medium">
-                                    Today, we take pride in our fleet of over 20+ premium vehicles and a team of chauffeurs who are not just drivers, but local guides. From airport transfers to multi-day Kutch expeditions, Black Rabbit is committed to punctuality, transparency, and the spirit of "Atithi Devo Bhava."
+                                    We focus on professional drivers, clean vehicles, and excellent customer service to
+                                    ensure every journey is smooth and enjoyable. We have grown from a small fleet to
+                                    a trusted name in Gujarat's travel industry.
                                 </p>
                             </div>
                             <div className="grid grid-cols-2 gap-6 md:gap-8 max-w-sm mx-auto lg:mx-0">
@@ -369,11 +370,11 @@ const About = () => {
                                 <Link to="/book" className="px-8 md:px-10 py-4 md:py-5 bg-gold-500 text-white rounded-xl md:rounded-2xl font-black text-lg md:text-xl shadow-xl shadow-gold-500/30 hover:bg-gold-600 hover:scale-105 transition-all w-full sm:w-auto">
                                     Book Ride
                                 </Link>
-                                <a href="tel:+917284038244" className="px-8 md:px-10 py-4 md:py-5 bg-white text-gold-500 border-2 border-gold-500 rounded-xl md:rounded-2xl font-black text-lg md:text-xl hover:bg-gold-50 hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3">
+                                <a href="tel:+919876543210" className="px-8 md:px-10 py-4 md:py-5 bg-white text-gold-500 border-2 border-gold-500 rounded-xl md:rounded-2xl font-black text-lg md:text-xl hover:bg-gold-50 hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3">
                                     <Phone size={22} className="shrink-0" /> Call Now
                                 </a>
                                 <a
-                                    href="https://wa.me/917284038244"
+                                    href="https://wa.me/919876543210"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="px-8 md:px-10 py-4 md:py-5 bg-[#25D366] text-white rounded-xl md:rounded-2xl font-black text-lg md:text-xl shadow-xl shadow-green-500/30 hover:bg-[#128C7E] hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3"

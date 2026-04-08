@@ -33,19 +33,6 @@ import LocalTaxiAhmedabad from './pages/LocalTaxiAhmedabad';
 import AhmedabadToBhujTravelGuide from './pages/blog/AhmedabadToBhujTravelGuide';
 import BestTimeToVisitDwarka from './pages/blog/BestTimeToVisitDwarka';
 import TopPlacesInUdaipur from './pages/blog/TopPlacesInUdaipur';
-import BestTimeToVisitRannOfKutch from './pages/blog/BestTimeToVisitRannOfKutch';
-import RannOfKutchTravelGuide from './pages/blog/RannOfKutchTravelGuide';
-import BhujItinerary2Days from './pages/blog/BhujItinerary2Days';
-import HowToReachBhuj from './pages/blog/HowToReachBhuj';
-import TopPlacesInKutch from './pages/blog/TopPlacesInKutch';
-import BudgetTripToKutch from './pages/blog/BudgetTripToKutch';
-import RannUtsavGuide from './pages/blog/RannUtsavGuide';
-import HotelsInBhuj from './pages/blog/HotelsInBhuj';
-import KutchTourCostBreakdown from './pages/blog/KutchTourCostBreakdown';
-import AhmedabadToKutchTravelGuide from './pages/blog/AhmedabadToKutchTravelGuide';
-import PrivacyPolicy from './pages/PrivacyPolicy';
-import Disclaimer from './pages/Disclaimer';
-import Packages from './pages/Packages';
 import { HelmetProvider } from 'react-helmet-async';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -100,22 +87,10 @@ function App() {
             <Route path="/blog/ahmedabad-to-bhuj-travel-guide" element={<AhmedabadToBhujTravelGuide />} />
             <Route path="/blog/best-time-to-visit-dwarka" element={<BestTimeToVisitDwarka />} />
             <Route path="/blog/top-places-in-udaipur" element={<TopPlacesInUdaipur />} />
-            <Route path="/blog/best-time-to-visit-rann-of-kutch" element={<BestTimeToVisitRannOfKutch />} />
-            <Route path="/blog/rann-of-kutch-travel-guide" element={<RannOfKutchTravelGuide />} />
-            <Route path="/blog/bhuj-itinerary-2-days" element={<BhujItinerary2Days />} />
-            <Route path="/blog/how-to-reach-bhuj" element={<HowToReachBhuj />} />
-            <Route path="/blog/top-places-in-kutch" element={<TopPlacesInKutch />} />
-            <Route path="/blog/budget-trip-to-kutch" element={<BudgetTripToKutch />} />
-            <Route path="/blog/rann-utsav-guide" element={<RannUtsavGuide />} />
-            <Route path="/blog/hotels-in-bhuj" element={<HotelsInBhuj />} />
-            <Route path="/blog/kutch-tour-cost-breakdown" element={<KutchTourCostBreakdown />} />
-            <Route path="/blog/ahmedabad-to-kutch-travel-guide" element={<AhmedabadToKutchTravelGuide />} />
               {/* Catch-all route mapping any unknown service pages to Home or Contact */}
               <Route path="/services" element={<Home />} />
-              <Route path="/packages" element={<Packages />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-              <Route path="/disclaimer" element={<Disclaimer />} />
-              <Route path="/terms-conditions" element={<PrivacyPolicy />} />
+              <Route path="/privacy-policy" element={<Home />} />
+              <Route path="/terms-conditions" element={<Home />} />
             </Routes>
           </main>
           <Footer />
