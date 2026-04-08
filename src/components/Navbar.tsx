@@ -16,10 +16,10 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    // Close menu on route change
     useEffect(() => {
-        setIsOpen(false);
-    }, [location.pathname]);
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        if (isOpen) setIsOpen(false);
+    }, [location.pathname, isOpen]);
 
     const navLinks = [
         { name: 'Home', path: '/' },
