@@ -9,7 +9,7 @@ import {
   ArrowRight,
   Clock
 } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 interface SEOPageProps {
   title: string;
@@ -23,6 +23,7 @@ interface SEOPageProps {
   bookingService?: string;
   defaultPickup?: string;
   defaultDropoff?: string;
+  canonicalPath?: string;
 }
 
 const SEOPage: React.FC<SEOPageProps> = ({
@@ -36,8 +37,14 @@ const SEOPage: React.FC<SEOPageProps> = ({
   contentSections,
   bookingService = "Local Rental",
   defaultPickup = "",
-  defaultDropoff = ""
+  defaultDropoff = "",
+  canonicalPath
 }) => {
+  const location = useLocation();
+  const baseUrl = "https://blackrabbittravels.com";
+  const currentPath = (canonicalPath || location.pathname).replace(/\/$/, ""); // Remove trailing slash
+  const canonicalUrl = `${baseUrl}${currentPath || "/"}`;
+  
   const whatsappNumber = "917284038244";
   const whatsappMsg = encodeURIComponent(`Hello Black Rabbit, I want to book a cab:
 
@@ -69,6 +76,45 @@ Vehicle:`);
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
+        <link rel="canonical" href={canonicalUrl} />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content={`${baseUrl}/logo.jfif`} />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={canonicalUrl} />
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content={`${baseUrl}/logo.jfif`} />
+
+        {/* JSON-LD Structured Data */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TaxiService",
+            "name": "Black Rabbit Tours & Travels",
+            "description": description,
+            "provider": {
+              "@type": "LocalBusiness",
+              "name": "Black Rabbit Tours & Travels",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ahmedabad",
+                "addressRegion": "Gujarat",
+                "addressCountry": "IN"
+              },
+              "telephone": "+917284038244",
+              "priceRange": "₹₹"
+            },
+            "areaServed": ["Ahmedabad", "Gandhidham", "Bhuj", "Kutch"],
+            "url": canonicalUrl
+          })
+        }} />
       </Helmet>
 
       {/* Hero Section */}

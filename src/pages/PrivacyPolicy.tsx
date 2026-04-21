@@ -71,6 +71,16 @@ const PrivacyPolicy = () => {
                                 Our website uses cookies to enhance user experience. Cookies help us remember and process the items in your booking and understand your preferences for future visits. We also use analytics tools to monitor traffic and usage patterns to improve our service offerings.
                             </p>
 
+                            <h3>5.1 Google AdSense Disclosures</h3>
+                            <p>
+                                We use Google AdSense to serve ads on our website. Google, as a third-party vendor, uses cookies to serve ads on your site. Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your site and/or other sites on the Internet.
+                            </p>
+                            <ul>
+                                <li>Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites.</li>
+                                <li>Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet.</li>
+                                <li>Users may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">Ads Settings</a>.</li>
+                            </ul>
+
                             <h2>6. Your Rights</h2>
                             <p>
                                 You have the right to:
