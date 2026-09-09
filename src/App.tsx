@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import LeadCaptureModal from './components/LeadCaptureModal';
 import Home from './pages/Home';
 import BookRide from './pages/BookRide';
 import Fleet from './pages/Fleet';
@@ -118,6 +119,7 @@ function App() {
             </Routes>
           </main>
           <Footer />
+          <LeadCaptureModal />
 
           {/* Floating WhatsApp Button */}
           <a
