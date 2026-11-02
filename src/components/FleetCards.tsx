@@ -10,6 +10,8 @@ const fleetData = [
         bestFor: 'City rides and airport transfers',
         price: '₹12/km',
         image: '/images/fleet/swift-dzire-white.png',
+        imageWebp: '/images/fleet/swift-dzire-white.webp',
+        alt: 'Swift Dzire sedan taxi cab – city rides & airport transfers Ahmedabad',
     },
     {
         id: 2,
@@ -18,6 +20,8 @@ const fleetData = [
         bestFor: 'Family travel',
         price: '₹15/km',
         image: '/images/fleet/suv-white.png',
+        imageWebp: '/images/fleet/suv-white.webp',
+        alt: 'SUV 6-seater taxi cab for family travel Gujarat',
     },
     {
         id: 3,
@@ -26,6 +30,8 @@ const fleetData = [
         bestFor: 'Premium long-distance travel',
         price: '₹19/km',
         image: '/images/fleet/innova-white.png',
+        imageWebp: '/images/fleet/innova-white.webp',
+        alt: 'Innova Crysta 7-seater cab service Gandhidham to Ahmedabad',
     },
     {
         id: 4,
@@ -34,6 +40,8 @@ const fleetData = [
         bestFor: 'Group travel and tours',
         price: '₹28/km',
         image: '/images/fleet/tempo-traveller.jpg',
+        imageWebp: '/images/fleet/tempo-traveller.webp',
+        alt: 'Tempo Traveller 12-seater group taxi Kutch Gujarat tours',
     }
 ];
 
@@ -77,11 +85,17 @@ const FleetCards = () => {
                         >
                             {/* Image Container */}
                             <div className="relative h-56 overflow-hidden bg-gray-100">
-                                <img
-                                    src={car.image}
-                                    alt={car.name}
-                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
-                                />
+                                <picture>
+                                    <source srcSet={car.imageWebp} type="image/webp" />
+                                    <img
+                                        src={car.image}
+                                        alt={car.alt}
+                                        width="600"
+                                        height="400"
+                                        loading="lazy"
+                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
+                                    />
+                                </picture>
                                 <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-black-900 text-sm font-extrabold shadow-sm border border-white/50">
                                     {car.price}
                                 </div>

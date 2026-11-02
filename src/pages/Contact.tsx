@@ -42,8 +42,19 @@ const Contact = () => {
     return (
         <div className="bg-white min-h-screen">
             <Helmet>
-                <title>Contact Us | Black Rabbit Tours & Travels</title>
-                <meta name="description" content="Get in touch with Black Rabbit Tours & Travels for taxi bookings, airport transfers, and tour packages in Ahmedabad. We are available 24/7." />
+                <title>Contact Black Rabbit Travels | +91 72840 38244</title>
+                <meta name="description" content="Contact Black Rabbit Tours & Travels for taxi booking in Ahmedabad, Gandhidham & Kutch. Call +91 72840 38244 or WhatsApp. Airport transfers, outstation cabs 24/7." />
+                <link rel="canonical" href="https://blackrabbittravels.com/contact" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://blackrabbittravels.com/contact" />
+                <meta property="og:title" content="Contact Black Rabbit Travels | +91 72840 38244" />
+                <meta property="og:description" content="Book a taxi in Ahmedabad, Gandhidham & Kutch. Call +91 72840 38244 or WhatsApp. 24/7 airport transfers." />
+                <meta property="og:image" content="https://blackrabbittravels.com/images/fleet/innova.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content="https://blackrabbittravels.com/contact" />
+                <meta name="twitter:title" content="Contact Black Rabbit Travels | +91 72840 38244" />
+                <meta name="twitter:description" content="Book a taxi in Ahmedabad & Kutch. Call +91 72840 38244. 24/7 service." />
+                <meta name="twitter:image" content="https://blackrabbittravels.com/images/fleet/innova.png" />
             </Helmet>
 
             {/* 1. Hero Section */}

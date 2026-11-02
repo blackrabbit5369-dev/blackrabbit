@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /_vercel/
+Disallow: /api/
+
+# Block low-value transient pages from indexing
+# (Remove the next line if you want /book indexed)
+# Disallow: /book
 
 Sitemap: https://blackrabbittravels.com/sitemap.xml

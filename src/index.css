@@ -48,15 +48,39 @@ img {
   display: block;
 }
 
-/* Ensure buttons are touch-friendly on mobile */
+/* ── Mobile Usability: Minimum 48×48px tap targets (Google requirement) ── */
 button,
 .btn-primary,
-.btn-secondary {
+.btn-secondary,
+a[href],
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
   min-height: 48px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
+
+/* Form inputs: min 16px font prevents iOS auto-zoom; min 48px height for tap targets */
+input,
+select,
+textarea {
+  font-size: 16px !important; /* Prevents iOS auto-zoom */
+  min-height: 48px;
+}
+
+textarea {
+  min-height: 96px; /* Textarea should be taller */
+}
+
+/* Ensure adjacent interactive elements have at least 8px spacing */
+nav a + a,
+.flex a + a,
+.flex button + button {
+  margin-left: 8px;
+}
+
 
 /* Custom scrollbar for lighter theme */
 ::-webkit-scrollbar {

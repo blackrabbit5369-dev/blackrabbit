@@ -92,27 +92,68 @@ Vehicle:`);
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={`${baseUrl}/logo.jfif`} />
 
-        {/* JSON-LD Structured Data */}
+        {/* JSON-LD Structured Data – TaxiService @graph with BreadcrumbList */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "TaxiService",
-            "name": "Black Rabbit Tours & Travels",
-            "description": description,
-            "provider": {
-              "@type": "LocalBusiness",
-              "name": "Black Rabbit Tours & Travels",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Ahmedabad",
-                "addressRegion": "Gujarat",
-                "addressCountry": "IN"
+            "@graph": [
+              {
+                "@type": "TaxiService",
+                "@id": `${baseUrl}/#taxiservice`,
+                "name": "Black Rabbit Tour And Travels",
+                "alternateName": "Black Rabbit Travels",
+                "legalName": "Black Rabbit Tour And Travels",
+                "description": description,
+                "url": canonicalUrl,
+                "telephone": "+917284038244",
+                "priceRange": "₹₹",
+                "currenciesAccepted": "INR",
+                "paymentAccepted": "Cash, UPI, Credit Card",
+                "image": `${baseUrl}/images/fleet/innova.png`,
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "195, Bagirath, Meghper Borichi",
+                  "addressLocality": "Adipur",
+                  "addressRegion": "Gujarat",
+                  "postalCode": "370110",
+                  "addressCountry": "IN"
+                },
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 23.0948,
+                  "longitude": 70.1378
+                },
+                "areaServed": ["Ahmedabad", "Gandhidham", "Adipur", "Bhuj", "Kutch", "Rajkot", "Gujarat"],
+                "openingHoursSpecification": {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+                  "opens": "00:00",
+                  "closes": "23:59"
+                },
+                "provider": {
+                  "@type": "LocalBusiness",
+                  "@id": `${baseUrl}/#organization`,
+                  "name": "Black Rabbit Tour And Travels",
+                  "telephone": "+917284038244",
+                  "priceRange": "₹₹",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "195, Bagirath, Meghper Borichi",
+                    "addressLocality": "Adipur",
+                    "addressRegion": "Gujarat",
+                    "postalCode": "370110",
+                    "addressCountry": "IN"
+                  }
+                }
               },
-              "telephone": "+917284038244",
-              "priceRange": "₹₹"
-            },
-            "areaServed": ["Ahmedabad", "Gandhidham", "Bhuj", "Kutch"],
-            "url": canonicalUrl
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": baseUrl + "/" },
+                  { "@type": "ListItem", "position": 2, "name": title, "item": canonicalUrl }
+                ]
+              }
+            ]
           })
         }} />
       </Helmet>

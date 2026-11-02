@@ -51,8 +51,19 @@ const About = () => {
     return (
         <div className="bg-white min-h-screen">
             <Helmet>
-                <title>About Us | Black Rabbit Tours & Travels</title>
-                <meta name="description" content="Learn about Black Rabbit Tours & Travels, Ahmedabad's trusted taxi service provider. Discover our story, mission, and commitment to safe travel." />
+                <title>About Black Rabbit Travels | Taxi Service Gujarat</title>
+                <meta name="description" content="Black Rabbit Tour And Travels – Gujarat's trusted taxi service. Call +91 72840 38244 for professional cabs in Ahmedabad, Gandhidham & Kutch. 24/7 service." />
+                <link rel="canonical" href="https://blackrabbittravels.com/about" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://blackrabbittravels.com/about" />
+                <meta property="og:title" content="About Black Rabbit Travels | Taxi Service Gujarat" />
+                <meta property="og:description" content="Gujarat's trusted taxi service. Professional drivers, premium fleet, 24/7 availability. Call +91 72840 38244." />
+                <meta property="og:image" content="https://blackrabbittravels.com/images/fleet/innova.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content="https://blackrabbittravels.com/about" />
+                <meta name="twitter:title" content="About Black Rabbit Travels | Taxi Service Gujarat" />
+                <meta name="twitter:description" content="Gujarat's trusted taxi service. Call +91 72840 38244." />
+                <meta name="twitter:image" content="https://blackrabbittravels.com/images/fleet/innova.png" />
             </Helmet>
 
             {/* 1. Hero Section */}
@@ -133,7 +144,10 @@ const About = () => {
                             <div className="relative rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl aspect-[4/3] md:aspect-auto">
                                 <img
                                     src="/images/fleet/swift-dzire.jpg"
-                                    alt="Black Rabbit Premium Taxi"
+                                    alt="Black Rabbit Swift Dzire taxi cab Ahmedabad"
+                                    width="800"
+                                    height="600"
+                                    loading="lazy"
                                     className="w-full h-full object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black-900/40 to-transparent" />
@@ -221,15 +235,15 @@ const About = () => {
                             >
                                 <div className="space-y-3 md:space-y-4 pt-6 md:pt-10">
                                     <div className="bg-white p-1.5 md:p-2 rounded-[1.5rem] md:rounded-[2rem] shadow-lg">
-                                        <img src="/images/general/driver-1.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
+                                        <img src="/images/general/driver-1.jpg" width="400" height="300" loading="lazy" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Professional Black Rabbit taxi driver Gandhidham" />
                                     </div>
                                     <div className="bg-white p-1.5 md:p-2 rounded-[1.5rem] md:rounded-[2rem] shadow-lg">
-                                        <img src="/images/general/driver-2.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
+                                        <img src="/images/general/driver-2.jpg" width="400" height="300" loading="lazy" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Verified Black Rabbit cab driver Ahmedabad" />
                                     </div>
                                 </div>
                                 <div className="space-y-3 md:space-y-4">
                                     <div className="bg-white p-1.5 md:p-2 rounded-[1.5rem] md:rounded-[2rem] shadow-lg">
-                                        <img src="/images/general/driver-3.jpg" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Driver" />
+                                        <img src="/images/general/driver-3.jpg" width="400" height="300" loading="lazy" className="w-full h-32 md:h-48 object-cover rounded-[1.3rem] md:rounded-[1.8rem]" alt="Experienced Black Rabbit driver Gujarat" />
                                     </div>
                                     <div className="bg-white p-4 md:p-6 rounded-[1.5rem] md:rounded-[2rem] shadow-lg text-center flex flex-col justify-center items-center">
                                         <ShieldCheck className="text-gold-500 w-8 h-8 md:w-12 md:h-12 mb-2 md:mb-4" />
@@ -369,11 +383,11 @@ const About = () => {
                                 <Link to="/book" className="px-8 md:px-10 py-4 md:py-5 bg-gold-500 text-white rounded-xl md:rounded-2xl font-black text-lg md:text-xl shadow-xl shadow-gold-500/30 hover:bg-gold-600 hover:scale-105 transition-all w-full sm:w-auto">
                                     Book Ride
                                 </Link>
-                                <a href="tel:+919876543210" className="px-8 md:px-10 py-4 md:py-5 bg-white text-gold-500 border-2 border-gold-500 rounded-xl md:rounded-2xl font-black text-lg md:text-xl hover:bg-gold-50 hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3">
+                                <a href="tel:+917284038244" className="px-8 md:px-10 py-4 md:py-5 bg-white text-gold-500 border-2 border-gold-500 rounded-xl md:rounded-2xl font-black text-lg md:text-xl hover:bg-gold-50 hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3">
                                     <Phone size={22} className="shrink-0" /> Call Now
                                 </a>
                                 <a
-                                    href="https://wa.me/919876543210"
+                                    href="https://wa.me/917284038244"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="px-8 md:px-10 py-4 md:py-5 bg-[#25D366] text-white rounded-xl md:rounded-2xl font-black text-lg md:text-xl shadow-xl shadow-green-500/30 hover:bg-[#128C7E] hover:scale-105 transition-all w-full sm:w-auto flex items-center justify-center gap-2 md:gap-3"

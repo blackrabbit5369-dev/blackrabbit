@@ -70,8 +70,19 @@ const Fleet = () => {
     return (
         <div className="bg-white min-h-screen">
             <Helmet>
-                <title>Our Premium Fleet | Black Rabbit Tours & Travels</title>
-                <meta name="description" content="Explore our premium range of Sedans, SUVs, and luxury vehicles for your travel needs in Ahmedabad and Gujarat." />
+                <title>Taxi Fleet – Sedan, SUV, Innova | Black Rabbit Travels</title>
+                <meta name="description" content="Book from Black Rabbit Travels fleet: Swift Dzire, SUV, Innova Crysta & Tempo Traveller. Ahmedabad, Gandhidham, Kutch. Call +91 72840 38244. Rates from Rs.12/km." />
+                <link rel="canonical" href="https://blackrabbittravels.com/fleet" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://blackrabbittravels.com/fleet" />
+                <meta property="og:title" content="Taxi Fleet – Sedan, SUV, Innova | Black Rabbit Travels" />
+                <meta property="og:description" content="Premium taxis from Rs.12/km: Swift Dzire, SUV, Innova Crysta & Tempo Traveller. Ahmedabad & Gujarat. Call +91 72840 38244." />
+                <meta property="og:image" content="https://blackrabbittravels.com/images/fleet/innova.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content="https://blackrabbittravels.com/fleet" />
+                <meta name="twitter:title" content="Taxi Fleet – Sedan, SUV, Innova | Black Rabbit Travels" />
+                <meta name="twitter:description" content="Premium taxis from Rs.12/km. Call +91 72840 38244. Ahmedabad & Gujarat." />
+                <meta name="twitter:image" content="https://blackrabbittravels.com/images/fleet/innova.png" />
             </Helmet>
 
             {/* 1. Hero Section */}
@@ -127,7 +138,10 @@ const Fleet = () => {
                                 <div className="h-64 overflow-hidden relative">
                                     <img
                                         src={vehicle.image}
-                                        alt={vehicle.name}
+                                        alt={`${vehicle.name} taxi cab for hire Ahmedabad Gujarat`}
+                                        width="600"
+                                        height="400"
+                                        loading="lazy"
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                     />
                                     <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-4 py-2 rounded-xl border border-white/50 shadow-sm">
@@ -246,7 +260,10 @@ const Fleet = () => {
                             >
                                 <img
                                     src="/images/fleet/fleet-hero.jpg"
-                                    alt="Luxury Car Interior"
+                                    alt="Luxury Innova Crysta car interior Black Rabbit Travels"
+                                    width="800"
+                                    height="600"
+                                    loading="lazy"
                                     className="w-full h-full object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black-900/60 to-transparent" />

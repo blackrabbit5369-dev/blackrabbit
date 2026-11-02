@@ -106,16 +106,21 @@ const VideoHero = () => {
                         {/* Soft gold glow directly behind car */}
                         <div className="absolute inset-x-0 bottom-0 lg:inset-0 bg-gold-400/20 rounded-full blur-[60px] md:blur-[80px] transform scale-90 lg:scale-75 animate-pulse" style={{ animationDuration: '4s' }} />
 
-                        {/* The actual floating car image */}
-                        <motion.img
-                            animate={{ y: [0, -15, 0] }}
-                            transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                            src={heroCar}
-                            loading="lazy"
-                            alt="Premium SUV"
-                            className="object-contain w-full max-w-[500px] md:max-w-[700px] lg:w-[140%] lg:max-w-[1000px] relative z-20 lg:translate-x-16"
-                            style={{ filter: 'drop-shadow(0 20px 20px rgba(0,0,0,0.2)) drop-shadow(0 10px 10px rgba(0,0,0,0.1))' }}
-                        />
+                        {/* The actual floating car image - LCP element, no lazy loading */}
+                        <picture>
+                            <source srcSet="/images/hero/luxury-suv-hero.webp" type="image/webp" />
+                            <motion.img
+                                animate={{ y: [0, -15, 0] }}
+                                transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+                                src={heroCar}
+                                fetchPriority="high"
+                                width="900"
+                                height="600"
+                                alt="Black Rabbit Tours luxury SUV taxi service Ahmedabad"
+                                className="object-contain w-full max-w-[500px] md:max-w-[700px] lg:w-[140%] lg:max-w-[1000px] relative z-20 lg:translate-x-16"
+                                style={{ filter: 'drop-shadow(0 20px 20px rgba(0,0,0,0.2)) drop-shadow(0 10px 10px rgba(0,0,0,0.1))' }}
+                            />
+                        </picture>
                     </motion.div>
 
                 </div>

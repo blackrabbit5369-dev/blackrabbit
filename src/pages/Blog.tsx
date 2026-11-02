@@ -155,8 +155,19 @@ const Blog = () => {
     return (
         <>
             <Helmet>
-                <title>Blog | Black Rabbit Tours & Travels</title>
-                <meta name="description" content="Read our latest travel guides, tips, and articles about tourism in Gujarat." />
+                <title>Travel Blog – Gujarat Trip Tips | Black Rabbit Travels</title>
+                <meta name="description" content="Travel guides, tips & articles about Gujarat, Kutch, Ahmedabad, Dwarka & Udaipur by Black Rabbit Travels. Plan your next trip. Call +91 72840 38244." />
+                <link rel="canonical" href="https://blackrabbittravels.com/blog" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://blackrabbittravels.com/blog" />
+                <meta property="og:title" content="Travel Blog – Gujarat Trip Tips | Black Rabbit Travels" />
+                <meta property="og:description" content="Travel guides for Gujarat, Kutch, Rann Utsav, Dwarka & Udaipur. By Black Rabbit Travels. Call +91 72840 38244." />
+                <meta property="og:image" content="https://blackrabbittravels.com/images/fleet/innova.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content="https://blackrabbittravels.com/blog" />
+                <meta name="twitter:title" content="Travel Blog – Gujarat Trip Tips | Black Rabbit Travels" />
+                <meta name="twitter:description" content="Travel guides for Gujarat, Kutch & Rann Utsav. Call +91 72840 38244." />
+                <meta name="twitter:image" content="https://blackrabbittravels.com/images/fleet/innova.png" />
             </Helmet>
 
             <div className="pt-32 pb-24 min-h-screen bg-white">
@@ -176,7 +187,7 @@ const Blog = () => {
                           <Link key={post.id} to={post.link} className="flex flex-col">
                             <article className="luxury-card overflow-hidden group cursor-pointer border-t-[3px] border-t-white hover:border-t-gold-500 flex flex-col h-full transition-all">
                                 <div className="h-56 overflow-hidden relative">
-                                    <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out" />
+                                    <img src={post.image} alt={post.title} width="600" height="400" loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-in-out" />
                                     <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md text-black-900 text-xs font-extrabold px-3 py-1.5 rounded-full uppercase shadow-sm">
                                         {post.category}
                                     </div>
